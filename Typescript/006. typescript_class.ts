@@ -19,7 +19,7 @@ class Animal1 {
     }
 }
 
-const dog = new Animal("white")
+const dog = new Animal1("white")
 
 class Animal2 {
     constructor(readonly color:string) {
@@ -30,7 +30,7 @@ class Animal2 {
     }
 }
 
-const kangaroo = new Animal("white")
+const kangaroo = new Animal2("white")
 
 
 // 접근 제한자(Access modifier) - public, private, protected
@@ -103,4 +103,4 @@ class babyKoala extends koala {
         console.log("feed me")
     }
 }
-// 추상 클래스는 상속받은 쪽에서 구체적인 구현을 해야된다. 
+// 추상 클래스는 상속받은 쪽에서 구체적인 구현을 해야된다.  

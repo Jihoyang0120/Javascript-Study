@@ -8,8 +8,8 @@ let week2:string[] = ["tur", "fri", "sat"]
 
 // Tuple
 
-let toople:[string, number];
-toople = ["a", 1]
+let tuple:[string, number];
+tuple = ["a", 1]
 // twople[1].toLowerCase();
 
 // void, never

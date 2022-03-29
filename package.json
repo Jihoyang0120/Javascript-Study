@@ -1,0 +1,23 @@
+{
+  "name": "javascript-study",
+  "version": "1.0.0",
+  "description": "자바스크립트 기본 내용 복습",
+  "main": "001. obejct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jihoyang0120/Javascript-Study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jihoyang0120/Javascript-Study/issues"
+  },
+  "homepage": "https://github.com/Jihoyang0120/Javascript-Study#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

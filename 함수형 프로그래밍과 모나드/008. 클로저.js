@@ -33,3 +33,5 @@ const add = (function () {
   };
 })();
 console.log([add(), add(), add()]);
+
+// 또한 counter 라는 변수가 어떤 행위에 이어서 실행될 수 있게 만든다. counter라는 변수는 내부함수에서 참조할 수 있는 클로저로 남이 있기에 계속 더하기가 가능.

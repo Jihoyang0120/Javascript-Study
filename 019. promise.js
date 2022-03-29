@@ -28,12 +28,4 @@ const c = () => {
   });
 };
 
-const d = () => {
-  return new Promise((resolve, reject) =>
-    setTimeout(() => {
-      console.log(4);
-    }, delay)
-  );
-};
-
 a().then(b).then(c);
